@@ -24,7 +24,7 @@ public class HomePage extends BasePage {
                     verifyImageActive(imgElement);
                 }
             }
-            System.out.println("Number of broken images on the page : "	+ brokenImageCount);
+            log.info("Number of broken images on the page : "	+ brokenImageCount);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

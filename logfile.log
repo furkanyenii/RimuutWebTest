@@ -1,39 +1,13 @@
-2022-05-08 13:29:34,365 INFO  [Log] Broken image test started. 
-2022-05-08 13:29:34,451 INFO  [Log] Allowed cookies 
-2022-05-08 13:29:34,472 INFO  [Log] Number of images checked on the page : 29 
-2022-05-08 13:29:34,804 INFO  [Log] Broken ımage test passed 
+2022-05-31 16:30:05,322 INFO  [Log] Broken image test started. 
+2022-05-31 16:30:05,571 INFO  [Log] Allowed cookies 
+2022-05-31 16:30:05,640 INFO  [Log] Number of images checked on the page : 29 
+2022-05-31 16:30:06,795 INFO  [Log] Number of broken images on the page : 0 
+2022-05-31 16:30:06,795 INFO  [Log] Broken image test passed 
  
-2022-05-08 13:29:40,987 INFO  [Log] Hourly rate calculator test started. 
-2022-05-08 13:29:41,055 INFO  [Log] Allowed cookies 
-2022-05-08 13:29:41,154 INFO  [Log] Selected currency unit. 
-2022-05-08 13:29:41,217 INFO  [Log] Clicked expenses title. 
-2022-05-08 13:29:41,320 INFO  [Log] Entered monthly rent or room cost. 
-2022-05-08 13:29:41,381 INFO  [Log] Entered cellphone bill. 
-2022-05-08 13:29:41,444 INFO  [Log] Entered utilities cost. 
-2022-05-08 13:29:41,510 INFO  [Log] Entered food/drink cost 
-2022-05-08 13:29:41,568 INFO  [Log] Entered software service cost. 
-2022-05-08 13:29:41,626 INFO  [Log] Entered travel expenses 
-2022-05-08 13:29:41,686 INFO  [Log] Entered financial payments. 
-2022-05-08 13:29:41,749 INFO  [Log] Entered credit card payment 
-2022-05-08 13:29:41,814 INFO  [Log] Entered insurance cost. 
-2022-05-08 13:29:41,869 INFO  [Log] Entered accountng fees 
-2022-05-08 13:29:41,947 INFO  [Log] Entered travel expenses 
-2022-05-08 13:29:42,007 INFO  [Log] Entered leisure costs. 
-2022-05-08 13:29:42,083 INFO  [Log] Entered career/skill basedCost 
-2022-05-08 13:29:42,135 INFO  [Log] Clicked others heading. 
-2022-05-08 13:29:42,221 INFO  [Log] Entered taxation cost. 
-2022-05-08 13:29:42,288 INFO  [Log] Entered your profit margin. 
-2022-05-08 13:29:42,398 INFO  [Log] Entered work hours weekly. 
-2022-05-08 13:29:42,467 INFO  [Log] Entered vacation day monthly 
-2022-05-08 13:29:42,538 INFO  [Log] Entered sick days monthly 
-2022-05-08 13:29:42,595 INFO  [Log] Entered work travels monthly 
-2022-05-08 13:29:42,617 INFO  [Log] Hourly rate calculate test passed 
+2022-05-31 16:30:13,507 INFO  [Log] Hourly rate calculator test started. 
+2022-05-31 16:30:13,764 INFO  [Log] Allowed cookies 
+2022-05-31 16:30:18,743 INFO  [Log] Hourly rate calculate test passed 
  
-2022-05-08 13:29:49,819 INFO  [Log] Invoice generator for freelancer test started. 
-2022-05-08 13:29:49,897 INFO  [Log] Allowed cookies 
-2022-05-08 13:29:50,013 INFO  [Log] Area cleared and entered your business name. 
-2022-05-08 13:29:50,187 INFO  [Log] Area cleared and entered company informations. 
-2022-05-08 13:29:50,333 INFO  [Log] Area cleared and entered client company informations. 
-2022-05-08 13:29:50,526 INFO  [Log] Entered bank account and invoice number. 
-2022-05-08 13:29:50,844 INFO  [Log] Entered footer informations. 
-2022-05-08 13:29:50,844 INFO  [Log] Invoice generator for freelancer test passed 
+2022-05-31 16:30:26,850 INFO  [Log] Invoice generator for freelancer test started. 
+2022-05-31 16:30:27,007 INFO  [Log] Allowed cookies 
+2022-05-31 16:30:29,380 INFO  [Log] Invoice generator for freelancer test passed 

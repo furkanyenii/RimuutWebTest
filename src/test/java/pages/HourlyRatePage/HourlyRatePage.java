@@ -49,152 +49,130 @@ public class HourlyRatePage extends BasePage
         wait.until(ExpectedConditions.visibilityOfElementLocated(currencyHeadingLocator));
         Select select = new Select(driver.findElement(currencyHeadingLocator));
         select.selectByValue("TRY");
-        log.info("Selected currency unit.");
     }
 
     public void clickExpensesField(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(expensesHeadingLocator)).click();
-        log.info("Clicked expenses title.");
     }
 
     public void enterMonthlyRentOrRoomCost(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(monthlyRentOrRoomCostLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered monthly rent or room cost.");
     }
 
     public void enterCellphoneBill(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(cellPhoneBillLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered cellphone bill.");
     }
 
     public void enterUtilitiesCost(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(utilitiesCostLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered utilities cost.");
     }
 
     public void enterFoodDrinkCost(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(foodDrinkCostLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered food/drink cost");
     }
 
     public void enterSoftwareServiceCosts(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(softwareServiceCostLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered software service cost.");
     }
 
     public void enterTravelExpenses(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(travelExpensesLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered travel expenses");
     }
 
     public void enterFinancialPayments(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(financialPaymentsLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered financial payments.");
     }
 
     public void enterCreditCarPayment(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(creditCardPaymentLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered credit card payment");
     }
 
     public void enterInsuranceCost(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(insuranceCostLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered insurance cost.");
     }
 
     public void enterAccountingFees(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(accountingFeesLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered accountng fees");
     }
 
     public void enterProfessionalMembershipCosts(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(professionalMembershipCostLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered travel expenses");
     }
 
     public void enterLeisureCosts(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(leiusureCostsLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered leisure costs.");
     }
 
     public void enterCareerSkillBasedCosts(Double cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(careerSkillBasedCostLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered career/skill basedCost");
     }
 
     public void clickOthersField(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(othersHeadingLocator)).click();
-        log.info("Clicked others heading.");
     }
 
     public void enterTaxationCosts(Integer cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(taxationCostLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered taxation cost.");
     }
 
     public void enterYourProfitMargin(Integer cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(yourProfitMarginLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered your profit margin.");
     }
 
     public void enterWorkHoursWeekly(Integer cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(workHoursWeeklyLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered work hours weekly.");
     }
 
     public void enterVacationDayMonthly(Integer cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(vacationDaysMonthly))
                 .sendKeys(cost.toString());
-        log.info("Entered vacation day monthly");
     }
 
     public void enterSickDaysMonthly(Integer cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(sickDaysMonthlyLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered sick days monthly");
     }
 
     public void enterWorkTravelsMonthly(Integer cost){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(workTravelsMonthlyLocator))
                 .sendKeys(cost.toString());
-        log.info("Entered work travels monthly");
     }
 
     public String getYourHourlyRate(){

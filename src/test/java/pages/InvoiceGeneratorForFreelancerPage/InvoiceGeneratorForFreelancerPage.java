@@ -36,7 +36,6 @@ public class InvoiceGeneratorForFreelancerPage extends BasePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(nameOfYourBusinessLocator)).clear();
         wait.until(ExpectedConditions.visibilityOfElementLocated(nameOfYourBusinessLocator))
                 .sendKeys("Teknobahce");
-        log.info("Area cleared and entered your business name.");
     }
 
     public void clearAreaAndSetCompanyInformation(String companyStreet, String companyTown, String companyCountry, String companyNumber, String vat){
@@ -49,7 +48,6 @@ public class InvoiceGeneratorForFreelancerPage extends BasePage {
                         + companyCountry + "\n\n"
                         + companyNumber + "\n"
                         + vat);
-        log.info("Area cleared and entered company informations.");
     }
 
     public void clearAreaAndSetClientCompanyInformation(
@@ -64,7 +62,6 @@ public class InvoiceGeneratorForFreelancerPage extends BasePage {
                                 + clientCompanyCountry + "\n\n"
                                 + clientCompanyNumber + "\n"
                                 + clientCompanyVat);
-        log.info("Area cleared and entered client company informations.");
     }
 
     public void setBankAccountAndInvoiceNo(String bankAccount, String invoiceNo){
@@ -74,8 +71,6 @@ public class InvoiceGeneratorForFreelancerPage extends BasePage {
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(invoiceNoLocator)).clear();
         driver.findElement(invoiceNoLocator).sendKeys(invoiceNo);
-
-        log.info("Entered bank account and invoice number.");
     }
 
     public void setFooterInformation(String emailAddress, String website, String phone){
@@ -92,12 +87,10 @@ public class InvoiceGeneratorForFreelancerPage extends BasePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(phoneLocator))
                 .sendKeys(
                         phone);
-        log.info("Entered footer informations.");
     }
 
     public void downloadPdf() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2000));
         wait.until(ExpectedConditions.visibilityOfElementLocated(saveToPdfButtonLocator)).click();
-        log.info("Downloaded pdf file.");
     }
 }
