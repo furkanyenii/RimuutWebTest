@@ -15,6 +15,6 @@ public class HomePageTest extends BaseTest {
         log.info("Broken image test started.");
         homePage.acceptCookie();
         homePage.findBrokenImage();
-        log.info("Broken ımage test passed \n");
+        log.info("Broken image test passed \n");
     }
 }
